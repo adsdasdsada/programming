@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleforma.css" type="text/css">
+</head>
+
+<body>
+    <form action="action_page.html">
+        <div class="area_1">
+            <label for="pip">ПІП</label>
+            <input type="text" placeholder="Прізвише Ім'я По батькови" id="pip">
+        </div>
+        <div class="area_2">
+            <label for="parol">Пароль</label>
+            <input type="text" placeholder="Придумайте пароль" id="parol">
+        </div>
+        <div class="area_3">
+            <label for="parovauder">Провайдер</label>
+            <input type="text" placeholder="Internet" id="parovauder" disabled="disabled">
+        </div>
+        <div class="area_4">
+            <label for="taruv">Тарифи</label>
+            <select>
+                <option>
+                    4 mb/s
+                </option>
+                <option>
+                    8 mb/s
+                </option>
+
+                <option>
+                    16 mb/s
+                </option>
+
+            </select>
+        </div>
+        <div class="area_5">
+            <label for="+">Додаткові послуги</label>
+            <ul>
+                <li>
+                    <label for="">
+                        <input type="checkbox">Реальний статичний IP
+                    </label>
+
+                </li>
+                <li>
+                    <label for="">
+                        <input type="checkbox">Відкладений платіж
+                    </label>
+                </li>
+                <li>
+                    <label for="">
+                        <input type="checkbox" disabled="disabled">Переоформлення договору
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <br clear="left">
+        <div class="area_6">
+            <label for="">Перемекачі</label>
+            <ul>
+                <li>
+                    <label for="">
+                        <input type="radio">Кабельне
+                    </label>
+
+                </li>
+                <li>
+                    <label for="">
+                        <input type="radio">Оптоволоконе (договірне)
+                    </label>
+                </li>
+                <li>
+                    <label for="">
+                        <input type="radio" disabled="disabled">Бездротове
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <br clear="left">
+            <label for="">Завантажити заявку:</label>
+            <input type="file">
+        
+        </div>
+        <div>
+            <label for="dod">Додаткове</label>
+            <input type="textarea">
+        
+        </div>
+
+<div>
+<button type="submit">Відправити</button>
+<button type="reset">Очистити</button>
+</div>
+
+
+
+    </form>
+</body>
+
+</html>
